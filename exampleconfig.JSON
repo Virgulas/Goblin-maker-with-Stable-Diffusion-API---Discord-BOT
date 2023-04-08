@@ -1,0 +1,6 @@
+{
+    "token": "bot token",
+    "clientID": "client id",
+    "hostname": "stable diffusion link",
+    "apiport": port of where the api is running (link)
+}

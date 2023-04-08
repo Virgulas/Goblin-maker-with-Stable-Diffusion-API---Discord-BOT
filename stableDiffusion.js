@@ -2,6 +2,7 @@ const uniqid = require('uniqid');
 const http = require('node:http');
 const fs = require('fs');
 const { createCanvas, loadImage } = require('canvas');
+const { hostname, apiport } = require("./config.json");
 
 const artMaker = async ({features, items, colors, occupations, characteristics}, name) => {
   const id = uniqid();
@@ -16,8 +17,8 @@ const artMaker = async ({features, items, colors, occupations, characteristics},
   });
   console.log(`(masterpiece, painting), goblin_${colors}, ((${features.join(", ")}))+++, (${items.join(", ")}), ${colors}, ${occupations}, ${characteristics}`);
   const options = {
-    hostname: '127.0.0.1',
-    port: 7860,
+    hostname: hostname,
+    port: apiport,
     path: '/sdapi/v1/txt2img',
     method: 'POST',
     headers: {
