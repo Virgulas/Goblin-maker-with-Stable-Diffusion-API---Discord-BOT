@@ -1,0 +1,109 @@
+{
+    "colors": {
+      "light_green": "verde claro",
+      "green": "verde",
+      "dark_green": "verde escuro",
+      "yellow": "amarelo",
+      "red": "vermelho",
+      "blue": "azul"
+    },
+    "base_status": {
+        "verde claro": {
+          "combate": 2,
+          "sorte": 1,
+          "conhecimento": 2,
+          "habilidade": 1
+        },
+        "verde": {
+          "combate": 2,
+          "sorte": 2,
+          "conhecimento": 1,
+          "habilidade": 1
+        },
+        "verde escuro": {
+          "combate": 2,
+          "sorte": 1,
+          "conhecimento": 1,
+          "habilidade": 2
+        },
+        "amarelo": {
+          "combate": 1,
+          "sorte": 2,
+          "conhecimento": 1,
+          "habilidade": 2
+        },
+        "vermelho": {
+          "combate": 1,
+          "sorte": 1,
+          "conhecimento": 2,
+          "habilidade": 2
+        },
+        "azul": {
+          "combate": 1,
+          "sorte": 2,
+          "conhecimento": 2,
+          "habilidade": 1
+        }
+    },
+    "characteristics": {
+      "insane": "insano",
+      "smelly": "fedorento",
+      "fat": "gordo",
+      "scars": "com cicatrezes",
+      "flawed_speech": "com problema na fala"
+    },
+    "occupations": {
+      "mercenary": "Mercenário",
+      "hunter": "Caçador",
+      "thief": "Ladrão",
+      "leader": "Líder",
+      "pyromaniac": "Piromaníaco",
+      "shaman": "Xamã"
+    },
+    "anomalies": {
+      "pink_spots": "manchas rosas",
+      "ears_in_armpit": "orelhas no sovaco",
+      "hunchback": "corcunda",
+      "atrophied_extra_arm": "braço extra atrofiado",
+      "extra_eyes": "olhos",
+      "giant_eyes": "olhos gigantes",
+      "giant_hands": "mãos gigantes",
+      "two_heads": "duas cabeças"
+    },
+    "equip_type": {
+        "Mercenário": "heavy",
+        "Caçador": "light",
+        "Ladrão": "light",
+        "Piromaníaco": "explosive",
+        "Líder": "heavy",
+        "Xamã": "magic"
+    },
+    "equip_heavy": 
+    [
+        {"name": "Espada e Escudo", "sword": {"damage": 3, "qty": 1}, "shield": {"protection": 1, "qty": 1}},
+        {"name": "Machado e Capacete", "axe": {"damage": 4, "qty": 1}, "helmet": {"protection": 1, "qty": 1}},
+        {"name": "2 Machadinhas", "hatchet": {"damage": 3, "qty": 2}},
+        {"name": "Espadona", "great_sword": {"damage": 5, "qty": 1}},
+        {"name": "2 Espadas e Armadura", "sword": {"damage": 3, "qty": 2}, "armor": {"protection": 1, "qty": 1}},
+        {"name": "Adaga, Espada e Armadura", "sword": {"damage": 3, "qty": 1}, "dagger": {"damage": 2, "qty": 1}, "armor": {"protection": 1, "qty": 1}}
+    ],
+    "equip_light": 
+    [
+        {"name": "2 Adagas", "dagger": {"damage": 2, "qty": 2}},
+        {"name": "Adaga e Escudo", "dagger": {"damage": 2, "qty": 1}, "shield": {"protection": 1, "qty": 1}},
+        {"name": "Arco Simples", "bow": {"damage": 2, "qty": 1}},
+        {"name": "Arco Composto", "compound_bow": {"damage": 3, "qty": 1}},
+        {"name": "4 Adagas", "dagger": {"damage": 2, "qty": 4}},
+        {"name": "Besta e Capacete", "crossbow": {"damage": 3, "qty": 1}, "helmet": {"protection": 1, "qty": 1}}
+    ],
+    "equip_explosive": 
+    [
+        {"name": "Pistola e Elmo", "pistol": {"damage": 4, "qty": 1}, "helmet": {"protection": 1, "qty": 1}},
+        {"name": "2 Pistolas", "pistol": {"damage": 4, "qty": 2}},
+        {"name": "3 Galinhas Explosivas", "chicken": {"area_damage": 4, "qty": 3}},
+        {"name": "Barril de Pólvora", "gunpowder_barrel": {"area_damage": 5, "qty": 1}},
+        {"name": "Pistola e 2 Galinhas Explosivas", "pistol": {"damage": 4, "qty": 1}, "chicken": {"area_damage": 4, "qty": 2}},
+        {"name": "Canhão", "cannon": {"damage": 8, "qty": 1}}
+    ],
+    "equip_magic": [{"name": "Cajado", "staff": {"damage": 1, "qty": 1, "magic": 8}}]
+  }
